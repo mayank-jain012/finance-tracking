@@ -137,7 +137,7 @@ const Transaction = ({ transactions,
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            width: "100%",
+            width: "70%",
             marginBottom: "1rem",
           }}
         >
@@ -157,7 +157,7 @@ const Transaction = ({ transactions,
               display: "flex",
               justifyContent: "center",
               gap: "1rem",
-              width: "400px",
+              width: "300px",
             }}
           >
             <button className="btn" onClick={exportToCsv}>
